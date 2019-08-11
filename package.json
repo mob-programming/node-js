@@ -1,0 +1,23 @@
+{
+  "name": "js-mocha-chai-expect",
+  "version": "1.0.0",
+  "description": "starter project for js-mocha-chai-expect",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mob-programmer/node-js.git"
+  },
+  "author": "mob-programmer",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/mob-programmer/node-js/issues"
+  },
+  "homepage": "https://github.com/mob-programmer/node-js#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
