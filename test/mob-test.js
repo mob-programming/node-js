@@ -7,6 +7,7 @@ describe("The mob", function(){
         it("makes this test pass", function() {
             var actual = mob.mobTest();
             expect(actual).to.be.true;
+            
 
         });
     });
