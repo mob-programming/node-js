@@ -1,0 +1,18 @@
+{
+  "name": "mob-programming",
+  "version": "1.0.0",
+  "description": "FizzBuzz",
+  "main": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mob"
+  ],
+  "author": "the mob",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
