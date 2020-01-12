@@ -4,7 +4,8 @@
   "description": "starter project for js-mocha-chai-expect",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "mocha --reporter spec; exit 0;",
+    "watch": "mocha --watch; exit 0;"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,6 @@
   "homepage": "https://github.com/mob-programmer/node-js#readme",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.2.0"
+    "mocha": "^7.0.0"
   }
 }

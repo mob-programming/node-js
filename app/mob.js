@@ -1,3 +1,7 @@
-exports.mobTest = function() {
+const mob = {
+  canMakeTestPass: function() {
     return false;
-}
+  }
+};
+
+module.exports = mob;
