@@ -14,19 +14,25 @@ Note: Spaces, case, and special characters should be ignored. So I would expect 
 > True
 */
 describe("The mob says", () => {
-  it("bob is a palindrome", () => {
+  it("simple palindromes are palindromes", () => {
     expect(mob.isPalindrome('bob')).to.be.true;
   });
 
-  it("linda is not a palindrome", () => {
+  it("non-palindromes are not palindromes", () => {
     expect(mob.isPalindrome('linda')).to.be.false;
   });
 
-  it("race car is a palindrome", () => {
+  it("palindromes ignore whitespace", () => {
     expect(mob.isPalindrome('race car')).to.be.true;
-    expect(mob.isPalindrome('Race Car')).to.be.true;
   });
 
+  it("palindromes ignore capitalization", () => {
+    expect(mob.isPalindrome('RaceCar')).to.be.true;
+  })
+
+  it("palindromes ignore special characters", () => {
+    expect(mob.isPalindrome('r;a?c:**e#$@ c@ar👍')).to.be.true;
+  })
 
 
 });
