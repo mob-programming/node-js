@@ -1,9 +1,6 @@
 const mob = {
   isPalindrome: function(input) {
-    if (input === 'bob') {
-      return true;
-    } 
-    return false;
+    return input === input.split('').reverse().join('');
   }
 };
 

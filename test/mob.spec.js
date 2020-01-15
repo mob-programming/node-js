@@ -22,6 +22,9 @@ describe("The mob says", () => {
     expect(mob.isPalindrome('linda')).to.be.false;
   });
 
+  it("level is a palindrome", () => {
+    expect(mob.isPalindrome('level')).to.be.true;
+  });
 
 });
  
