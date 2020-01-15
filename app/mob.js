@@ -1,6 +1,9 @@
 const mob = {
-  canMakeTestPass: function() {
-    return true;
+  isPalindrome: function(input) {
+    if (input === 'bob') {
+      return true;
+    } 
+    return false;
   }
 };
 

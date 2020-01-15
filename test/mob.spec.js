@@ -13,10 +13,15 @@ Note: Spaces, case, and special characters should be ignored. So I would expect 
 > isPalindrome 'Do pies use iPod?'
 > True
 */
-describe("The mob", () => {
-  it("can make a test pass", () => {
-    expect(mob.canMakeTestPass()).to.be.true;
+describe("The mob says", () => {
+  it("bob is a palindrome", () => {
+    expect(mob.isPalindrome('bob')).to.be.true;
   });
+
+  it("linda is not a palindrome", () => {
+    expect(mob.isPalindrome('linda')).to.be.false;
+  });
+
 
 });
  
