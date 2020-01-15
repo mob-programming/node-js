@@ -31,7 +31,7 @@ describe("The mob says", () => {
   })
 
   it("palindromes ignore special characters", () => {
-    expect(mob.isPalindrome('r;a?c:**e#$@ c@ar👍')).to.be.true;
+    expect(mob.isPalindrome('r;a?c:**e#$@c@ar👍')).to.be.true;
   })
 
 
