@@ -34,6 +34,15 @@ describe("The mob says", () => {
     expect(mob.isPalindrome('r;a?c:**e#$@c@ar👍')).to.be.true;
   })
 
+  it("empty string is a palindrome", () => {
+    expect(mob.isPalindrome('')).to.be.true;
+  })
+  
+  it("null is not a palindrome", () => {
+    expect(mob.isPalindrome(null)).to.be.false;
+  })
+
+
 
 });
  
