@@ -1,7 +1,7 @@
 const mob = {
   isPalindrome: function(input) {
     //clean whitespace
-    input = input.replace(' ', '')
+    input = input.replace(' ', '').toLowerCase()
     
     return input === input.split('').reverse().join('');
   }

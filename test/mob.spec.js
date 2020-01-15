@@ -24,6 +24,7 @@ describe("The mob says", () => {
 
   it("race car is a palindrome", () => {
     expect(mob.isPalindrome('race car')).to.be.true;
+    expect(mob.isPalindrome('Race Car')).to.be.true;
   });
 
 
